@@ -28,9 +28,6 @@ This project is an **IoT-based home automation and security system** using an **
 3. Access the **ESP32 Web Server** to control devices.
 4. Use an authorized RFID card to unlock the door.
 
-## 📷 Demo
-![Demo GIF](https://your-link.com/demo.gif)
-
 ## 🛠️ Future Improvements
 - Cloud-based logging and notifications
 - Face recognition for advanced security
