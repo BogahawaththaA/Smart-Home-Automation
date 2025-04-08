@@ -42,7 +42,7 @@ void handleLightOn();
 void handleLightOff();
 
 void setup() {
-  // Initialize Serial
+  // Initialize Serial port
   Serial.begin(115200);
 
   // Initialize components
