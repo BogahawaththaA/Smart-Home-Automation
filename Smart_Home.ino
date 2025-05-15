@@ -132,3 +132,20 @@ bool checkAuthorizedRFID(byte *uid, byte uidLength) {
   return true;  // Return true if UID matches
 }
 
+// Webpage root handler
+void handleRoot() {
+  server.send(200, "text/html", webpage);
+}
+
+// Light Control Handlers
+void handleLightOn() {
+  digitalWrite(RELAY_LIGHT_PIN, HIGH);  // Turn Light ON
+  server.send(200, "text/html", webpage);
+}
+
+void handleLightOff() {
+  digitalWrite(RELAY_LIGHT_PIN, LOW);   // Turn Light OFF
+  server.send(200, "text/html", webpage);
+}
+
+
